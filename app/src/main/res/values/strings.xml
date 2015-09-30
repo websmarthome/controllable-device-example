@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoViewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_ac">Air Conditioner</string>
+    <string name="action_viewer">Video Viewer</string>
+    <string name="title_activity_ac">Air Conditioner</string>
+
+</resources>

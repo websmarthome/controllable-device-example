@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ACActivity"
+    android:background="#ccc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        android:layout_margin="10dp">
+
+        <TextView android:text="Remote Controller Disabled"
+            android:id="@+id/rc_state_text"
+            android:textSize="26sp"
+            android:textColor="#666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rc_state_background"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:width="550dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/start_ble_button"
+            android:layout_width="@dimen/ble_switch_button_size"
+            android:layout_height="@dimen/ble_switch_button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:text="Start"/>
+
+        <Button
+            android:id="@+id/stop_ble_button"
+            android:layout_width="@dimen/ble_switch_button_size"
+            android:layout_height="@dimen/ble_switch_button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:text="Stop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView android:text="Current Temperature (Celsius)"
+            android:textSize="26sp"
+            android:textColor="#666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ac_text_background"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/current_temperature"
+                android:layout_width="@dimen/temperature_button_size"
+                android:layout_height="@dimen/temperature_button_size"
+                android:layout_margin="5dp"
+                android:background="@drawable/temperature"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#fff"
+                android:textSize="100sp"
+                android:text="24"/>
+            </LinearLayout>
+
+        <TextView android:text="Temperature Setting (Celsius)"
+            android:textSize="26sp"
+            android:textColor="#666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ac_text_background"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/setting_temperature_down"
+                android:layout_width="@dimen/temperature_button_size"
+                android:layout_height="@dimen/temperature_button_size"
+                android:layout_margin="5dp"
+                android:background="@drawable/temperature_button"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#fff"
+                android:textSize="100sp"
+                android:text="&lt;"/>
+
+            <Button
+                android:id="@+id/setting_temperature"
+                android:layout_width="@dimen/temperature_button_size"
+                android:layout_height="@dimen/temperature_button_size"
+                android:layout_margin="5dp"
+                android:background="@drawable/temperature"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ff8c00"
+                android:textSize="100sp"
+                android:text="24"/>
+
+            <Button
+                android:id="@+id/setting_temperature_up"
+                android:layout_width="@dimen/temperature_button_size"
+                android:layout_height="@dimen/temperature_button_size"
+                android:layout_margin="5dp"
+                android:background="@drawable/temperature_button"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#fff"
+                android:textSize="100sp"
+                android:text="&gt;"/>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>

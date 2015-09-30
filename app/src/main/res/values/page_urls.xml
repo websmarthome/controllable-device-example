@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <string-array name="page_urls">
+        <item>https://www.youtube.com/watch?v=1U2DKKqxHgE</item>
+        <item>https://www.youtube.com/watch?v=0WWzgGyAH6Y</item>
+        <item>https://www.youtube.com/watch?v=yFr5gFGB1U8</item>
+        <item>https://www.youtube.com/watch?v=tkI-ml-GWnA</item>
+        <item>https://www.youtube.com/watch?v=H3QRMgn7TuM</item>
+        <item>https://www.youtube.com/watch?v=Uv554B7YHk4</item>
+        <item>https://www.youtube.com/watch?v=PLLQK9la6Go</item>
+        <item>https://www.youtube.com/watch?v=7YcW25PHnAA</item>
+        <item>https://www.youtube.com/watch?v=olFEpeMwgHk</item>
+        <item>https://www.youtube.com/watch?v=MSTmkvn060E</item>
+        <item>https://www.youtube.com/watch?v=iTo-lLl7FaM</item>
+        <item>https://www.youtube.com/watch?v=ZKEaypYJbb4</item>
+    </string-array>
+    </resources>

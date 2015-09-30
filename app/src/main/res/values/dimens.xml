@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="channel_button_size">46dp</dimen>
+    <dimen name="channel_button_margin">5dp</dimen>
+    <dimen name="ble_switch_button_size">60dp</dimen>
+    <dimen name="temperature_button_size">200dp</dimen>
+</resources>

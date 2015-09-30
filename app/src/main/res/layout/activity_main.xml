@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ccc">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        android:layout_margin="10dp">
+
+        <TextView android:text="Remote Controller Disabled"
+            android:id="@+id/rc_state_text"
+            android:textSize="26sp"
+            android:textColor="#666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rc_state_background"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:width="550dp"
+            android:layout_marginRight="20dp"
+         />
+
+        <Button
+            android:id="@+id/start_ble_button"
+            android:layout_width="@dimen/ble_switch_button_size"
+            android:layout_height="@dimen/ble_switch_button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:text="Start"/>
+
+        <Button
+            android:id="@+id/stop_ble_button"
+            android:layout_width="@dimen/ble_switch_button_size"
+            android:layout_height="@dimen/ble_switch_button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:text="Stop"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/channel_button_01"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="01"/>
+            <Button
+                android:id="@+id/channel_button_02"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="02"/>
+            <Button
+                android:id="@+id/channel_button_03"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="03"/>
+            <Button
+                android:id="@+id/channel_button_04"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="04"/>
+            <Button
+                android:id="@+id/channel_button_05"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="05"/>
+            <Button
+                android:id="@+id/channel_button_06"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="06"/>
+            <Button
+                android:id="@+id/channel_button_07"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="07"/>
+            <Button
+                android:id="@+id/channel_button_08"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="08"/>
+            <Button
+                android:id="@+id/channel_button_09"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="09"/>
+            <Button
+                android:id="@+id/channel_button_10"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="10"/>
+            <Button
+                android:id="@+id/channel_button_11"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="11"/>
+            <Button
+                android:id="@+id/channel_button_12"
+                android:layout_width="@dimen/channel_button_size"
+                android:layout_height="@dimen/channel_button_size"
+                android:layout_margin="@dimen/channel_button_margin"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="#009999"
+                android:textColor="#fff"
+                android:text="12"/>
+         </LinearLayout>
+
+        <WebView
+            android:id="@+id/screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+          />
+
+     </LinearLayout>
+
+</LinearLayout>
